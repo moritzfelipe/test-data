@@ -1,0 +1,22 @@
+{
+  "name": "AgentMem",
+  "description": "Registration NFT for the AgentMem server providing persistent key-value and vector storage.",
+  "image": "string: https://moritzfelipe.github.io/test-data/img/AgentMem.png",
+
+  "mcp_server_registration": {
+    "name": "AgentMem",
+    "description": "Offers persistent key-value storage and basic vector similarity search for agents via MCP. Can be run locally via stdio or accessed as a hosted service. Usage-based pricing for hosted service.",
+    "owner": "0xF9B5B4f6E7C9a1D0f8d3a2bC69764d49E145A7d3",
+    "mcp_endpoints": [
+      "https://agentmem.persistent-tools.ai/mcp",
+      "stdio://run-agentmem --db-path=./agent.db"
+    ],
+    "participant_type": "server",
+    "mcp_version": "1.0.0",
+    "server_version": "agentmem-v1.0.3",
+    "capabilities_schema_url": "ipfs://bafybeiaabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyza",
+    "pricing_model": "usage-based", 
+    "icon_url": "https://moritzfelipe.github.io/test-data/img/AgentMem.png",
+    "documentation_url": "https://docs.persistent-tools.ai/agentmem"
+  }
+}

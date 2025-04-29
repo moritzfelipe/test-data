@@ -1,15 +1,21 @@
 {
-    "name": "My great NFT #1",
-    "description": "Yolo!",
-    "image": "https://yourcdn.com/path/to/image.png",
-    "attributes": [
-      {
-        "trait_type": "Background",
-        "value": "green"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "red"
-      }
-    ]
+  "name": "MarketData Pro",
+  "description": "Registration NFT for an MCP server offering real-time stock quotes and financial data from MarketData Pro.",
+  "image": "https://moritzfelipe.github.io/test-data/img/MarketData.png",
+
+  "mcp_server_registration": {
+    "name": "MarketData Pro Feed",
+    "description": "Access real-time stock quotes and financial market indices via a standardized MCP interface. Subscription-based access tiers available.",
+    "owner": "0x5C7e9a1D0f8d3a2bC69764d49E145A7d3F9B5B4f",
+    "mcp_endpoints": [
+      "https://marketdata-pro-mcp.secure-provider.net/v2"
+    ],
+    "participant_type": "server",
+    "mcp_version": "1.0.0",
+    "server_version": "marketfeed-pro-mcp-v2.4.1",
+    "capabilities_schema_url": "ipfs://bafybeih5j7k9l1p3o5i7u9y2t3w6f647q5g2s5d7f3v6h6d7f8s2g4h",
+    "pricing_model": "subscription",
+    "icon_url": "https://moritzfelipe.github.io/test-data/img/MarketData.png",
+    "documentation_url": "https://docs.secure-provider.net/marketdata-pro"
   }
+}
