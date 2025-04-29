@@ -1,0 +1,15 @@
+{
+    "name": "My great NFT #1",
+    "description": "Yolo!",
+    "image": "https://yourcdn.com/path/to/image.png",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "green"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "red"
+      }
+    ]
+  }
